@@ -1,6 +1,7 @@
 import "./styles.css";
 import Homepage from "./home.js";
-import Menupage from "./menu.js"
+import Menupage from "./menu.js";
+import Aboutpage from "./about.js";
 
 const content = document.getElementById("content");
 content.appendChild(Homepage());

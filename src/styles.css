@@ -4,7 +4,7 @@
 }
 body {
     background-color: antiquewhite;
-    height: 80vh;
+    height: 100vh;
     /* display: grid; */
     font-family:'Courier New', Courier, monospace
 
@@ -43,6 +43,7 @@ nav button {
     /* padding: 10%; */
     justify-items: center;
     align-items: center;
+    /* overflow: hidden; */
 }
 
 .content-card {
@@ -58,6 +59,7 @@ nav button {
     padding: 5%;
     align-items: center;
     gap: 50px;
+    margin-bottom: 20px;
 
 }
 
@@ -75,7 +77,53 @@ nav button {
     text-align: justify;
     line-height: 1.5;
 }
+.menu-header {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
 
+.menu-cat {
+    font-size: 1.3rem;
+}
+.menu-item {
+    display: grid;
+    /* flex-direction: column; */
+    gap: 10px;
+}
 .item-pic {
+    margin: 20px 0px;
+    width: 80%;
+    justify-self: center;
+}
+.about-header {
+    font-size: 1.5rem;
+}
+.about-section {
+    align-self:flex-start;
+    text-align: justify;
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+
+.about-section-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)) ;
+}
+
+.member-role {
+    color: rgb(96, 94, 94);
+    font-style: italic;
+    font-size: 0.9rem;
+
+}
+
+.about-img {
     width: 100%;
 }
