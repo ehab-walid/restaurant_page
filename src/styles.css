@@ -4,7 +4,7 @@
 }
 body {
     background-color: antiquewhite;
-    height: 100vh;
+    /* height: 100vh; */
     /* display: grid; */
     font-family:'Courier New', Courier, monospace
 
@@ -59,7 +59,7 @@ nav button {
     padding: 5%;
     align-items: center;
     gap: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 
 }
 
@@ -99,8 +99,8 @@ nav button {
     font-size: 1.5rem;
 }
 .about-section {
-    align-self:flex-start;
-    text-align: justify;
+    align-self:center;
+    text-align: center;
     width: 100%;
     display: grid;
     gap: 10px;
