@@ -1,2 +1,5 @@
 import "./styles.css";
-console.log("Hello Walid")
+import Homepage from "./home.js";
+
+
+document.getElementById("content").appendChild(Homepage());
