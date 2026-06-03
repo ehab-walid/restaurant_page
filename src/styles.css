@@ -48,16 +48,16 @@ nav button {
 .content-card {
     background-color: white;
     margin: 10%;
-    height: 80%;
+    /* height: 80%; */
     width: min(1000px, 70%);
     border-radius: 100px;
     display: flex;
     flex-direction: column;
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     /* justify-content: center; */
     padding: 5%;
     align-items: center;
-    gap: 10%;
+    gap: 50px;
 
 }
 
@@ -74,4 +74,8 @@ nav button {
     width: 80%;
     text-align: justify;
     line-height: 1.5;
+}
+
+.item-pic {
+    width: 100%;
 }
